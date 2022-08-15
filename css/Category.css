@@ -77,8 +77,9 @@
 	position: relative;
 	padding: 25px 25px;
 	background-color: #7b524425;
-	max-height: 324px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 .category-item-two {
 	position: relative;
@@ -101,6 +102,7 @@
 
 .category-item-two-desc-title {
 	padding-left: 68px;
+	flex: 1;
 }
 .category-item-two-desc-title i {
 	position: absolute;
@@ -114,18 +116,15 @@
 	display: block;
 	font-size: 13px;
 }
+.category-item-two-desc-p {
+	flex: 4;
+	display: flex;
+	align-items: center;
+}
 .category-item-two-desc p {
-	margin: 10px 0 0 0;
 	line-height: 2;
 	color: var(--gray);
 }
-.category-item-two-desc p::first-letter {
-	font-size: 3.5em;
-	line-height: 3rem;
-	color: var(--black);
-	font-weight: 900;
-}
-
 /* unnecessary addition */
 .category-item-two-desc p::selection {
 	background: none;
@@ -136,6 +135,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
+	align-items: flex-end;
+	flex: 1;
 }
 .category-item-two-bolletes span {
 	margin: 0 10px;

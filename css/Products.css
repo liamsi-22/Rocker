@@ -104,7 +104,7 @@
 	display: flex;
 }
 .footer-desc-date h2 {
-	width: 22%;
+	width: 18%;
 	color: var(--main-collor);
 }
 .footer-desc-date h2 b {
@@ -115,14 +115,17 @@
 }
 .footer-desc-date h3 {
 	font-size: 18px;
-	width: 78%;
+	width: 82%;
 }
 .product-footer .footer-desc p {
 	flex: 6;
-	display: flex;
-	align-items: center;
 	line-height: 2;
 	color: var(--gray);
+}
+.footer-desc .footer-desc-p {
+	display: flex;
+	align-items: center;
+	flex: 4;
 }
 .footer-desc .footer-desc-bolletes {
 	display: flex;
