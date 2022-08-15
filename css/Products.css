@@ -104,7 +104,7 @@
 	display: flex;
 }
 .footer-desc-date h2 {
-	width: 16%;
+	width: 22%;
 	color: var(--main-collor);
 }
 .footer-desc-date h2 b {
@@ -115,7 +115,7 @@
 }
 .footer-desc-date h3 {
 	font-size: 18px;
-	width: 84%;
+	width: 78%;
 }
 .product-footer .footer-desc p {
 	flex: 6;
