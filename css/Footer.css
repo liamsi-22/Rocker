@@ -1,0 +1,83 @@
+/* Footer */
+footer {
+	background-color: var(--black);
+}
+.footer-section .footer-items {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	column-gap: 50px;
+}
+.footer-items .footer-item > img {
+	width: 35%;
+}
+.footer-items .footer-item .footer-item-imgs {
+	display: flex;
+	justify-content: left;
+}
+.footer-items .footer-item .footer-item-imgs img {
+	margin-right: 10px;
+}
+.footer-items .footer-item:first-child {
+	grid-column: 1/3;
+}
+.footer-items .footer-item:first-child p {
+	line-height: 2;
+	color: var(--gray);
+	font-size: 12px;
+	padding: 25px 0;
+}
+.footer-items .footer-item span {
+	display: block;
+	margin: 16px 0;
+	font-size: 12px;
+	color: var(--gray);
+	cursor: pointer;
+}
+.footer-items .footer-item h3 {
+	color: white;
+	margin-bottom: 22px;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.footer-items .footer-item:last-child .input input {
+	margin-top: 30px;
+	background-color: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid var(--gray);
+	width: 100%;
+	color: white;
+}
+.footer-items .footer-item:last-child .input {
+	position: relative;
+}
+.footer-items .footer-item:last-child .input i {
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 8px;
+	cursor: pointer;
+}
+.footer-items .footer-item ul {
+	margin-top: 30px;
+	display: flex;
+}
+.footer-items .footer-item ul li {
+	margin-right: 20px;
+	color: var(--gray);
+	cursor: pointer;
+}
+/* footer copyright */
+.footer-copyright {
+	border-top: 1px solid rgba(128, 128, 128, 0.274);
+	padding: 10px 0;
+}
+.footer-copyright span {
+	color: var(--gray);
+}
+.footer-copyright span a {
+	padding: 0 6px;
+	color: var(--gray);
+	text-decoration: underline;
+}
